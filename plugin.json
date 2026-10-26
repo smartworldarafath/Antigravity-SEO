@@ -1,0 +1,19 @@
+{
+  "name": "antigravity-seo",
+  "displayName": "Antigravity SEO",
+  "version": "2.5.0",
+  "description": "Comprehensive SEO analysis plugin for Google Antigravity. 26 sub-skills and 19 sub-agents cover technical SEO, content quality, schema, sitemaps, Core Web Vitals, local SEO, backlinks, AI/GEO, ecommerce, hreflang, SXO, clustering, drift monitoring, and Google APIs.",
+  "author": {
+    "name": "Arafath",
+    "url": "https://github.com/smartworldarafath"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/smartworldarafath/Antigravity-SEO",
+  "repository": "https://github.com/smartworldarafath/Antigravity-SEO",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Run a full technical SEO audit on my website",
+    "Analyze content quality and E-E-A-T signals",
+    "Inspect Core Web Vitals and Schema markup"
+  ]
+}

@@ -1,0 +1,23 @@
+[project]
+name = "antigravity-seo"
+version = "2.5.0"
+description = "Comprehensive SEO analysis skill for Google Antigravity"
+requires-python = ">=3.11"
+license = "MIT"
+readme = "README.md"
+authors = [
+  {name = "Arafath"}
+]
+keywords = ["seo", "antigravity", "claude-code", "ai-tools", "schema-markup", "e-e-a-t", "geo"]
+
+[project.urls]
+Homepage = "https://github.com/smartworldarafath/Antigravity-SEO"
+Repository = "https://github.com/smartworldarafath/Antigravity-SEO"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]

@@ -1,0 +1,33 @@
+# CODEOWNERS for antigravity-seo
+#
+# Every change to this repository routes review to @smartworldarafath.
+# Sections below let us call out security-critical paths so a future
+# co-maintainer cannot accidentally land a change without the right
+# eyes on it.
+
+# Default owner — every file unless overridden below.
+*                                   @smartworldarafath
+
+# Security-critical: SSRF + DNS rebinding + credential handling.
+scripts/url_safety.py               @smartworldarafath
+scripts/google_auth.py              @smartworldarafath
+scripts/backlinks_auth.py           @smartworldarafath
+scripts/render_page.py              @smartworldarafath
+scripts/fetch_page.py               @smartworldarafath
+scripts/capture_screenshot.py       @smartworldarafath
+tests/test_url_safety.py            @smartworldarafath
+SECURITY.md                         @smartworldarafath
+
+# Release + distribution: install scripts and version pinning are the
+# supply-chain surface.
+install.sh                          @smartworldarafath
+install.ps1                         @smartworldarafath
+.claude-plugin/plugin.json          @smartworldarafath
+.claude-plugin/marketplace.json     @smartworldarafath
+requirements.txt                    @smartworldarafath
+pyproject.toml                      @smartworldarafath
+CITATION.cff                        @smartworldarafath
+
+# CI / governance.
+.github/                            @smartworldarafath
+tests/test_manifest_consistency.py  @smartworldarafath
